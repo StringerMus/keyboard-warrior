@@ -1,0 +1,102 @@
+/*to override default browswer styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    color: #01c38d;
+    letter-spacing: 2px;
+    }
+
+h2,p {
+    color: white;
+}
+    
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+/*header*/
+header {
+    background-color:#171717;
+}
+
+/*body*/
+main{
+    background-color: #0c2a32;
+}
+
+/*Introduction*/
+.intro{
+    padding: 20px 20px;
+}
+
+.intro h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.intro h2{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.intro p{
+    font-size: 14px;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background-color: #01c38d;
+}
+
+/*Game*/
+.game-area{
+    padding:10px 20px;
+    margin: 0px 40px;
+}
+
+.game-area p{
+    padding-bottom: 10px;
+}
+
+.challenge-area{
+    padding-top: 10px;
+}
+
+#challenge-word {
+    color: rgb(255, 196, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.challenge-area input {
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+.time-area{
+    padding: 10px 0px;
+}
+
+/*Rules*/
+.rules{
+    background-color: #091a1f;
+    color: white;
+}
+
+/*footer*/
+footer{
+    background-color:white;
+    padding:10px 10px;
+}

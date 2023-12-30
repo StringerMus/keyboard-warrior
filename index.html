@@ -14,8 +14,12 @@
 
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css"/>
+
     <!--font awesome kit-->
     <script src="https://kit.fontawesome.com/a3ac5e3118.js" crossorigin="anonymous"></script>
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 
@@ -38,20 +42,32 @@
         </div>
         
         <div class="game-area">
-            <p>Type this word as quick as you can:</p>
             <div class="challenge-area">
+                <p>Type this word as quick as you can:</p>
                 <span id="challenge-word">word</span>
+                <br>
                 <input id="type-box">
             </div>
             <!--sumbit needs to be don with "enter"-->
             <button data-type="submit" class="submit">Submit</button>
         </div>
 
-        <div class="time.area">
-            <p class="time-record">Time:<span id="time">0</span></p>
+        <div class="time-area">
+            <p class="time-record">Time: <span id="time">0</span></p>
+        </div>
+
+        <div class="rules">
+            <h2>How it Works</h2>
+            <p>Type in the challenge word in entry box as quick as you can</p>
+            <p>You need to spell the word correctly</p>
+            <p>Timer starts as soon as you start typing. The timer stops when you hit enter</p>
         </div>
 
     </main>
+
+    <footer>
+
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
