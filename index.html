@@ -20,12 +20,39 @@
 
 
 <body>
-    <!--Header Bar: to be copied on all pages-->
+    <!--Header Bar-->
     <header>
         <a href="index.html">
-            <h1 id="logo" img src="assets/images/logo.png" alt="logo">
+            <!--need to add code to insert image logo-->
+            <img class="logo" src="assets/images/logo.png" alt="logo">
         </a>
+    </header>
+
+    <main>
+        <div class="intro">
+            <h1>Challenge</h1>
+            <h2>How fast can you type?</h2>
+            <a href="#rules">
+                <p>Rules</p>
+            </a>
+        </div>
         
-        
+        <div class="game-area">
+            <p>Type this word as quick as you can:</p>
+            <div class="challenge-area">
+                <span id="challenge-word">word</span>
+                <input id="type-box">
+            </div>
+            <!--sumbit needs to be don with "enter"-->
+            <button data-type="submit" class="submit">Submit</button>
+        </div>
+
+        <div class="time.area">
+            <p class="time-record">Time:<span id="time">0</span></p>
+        </div>
+
+    </main>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
