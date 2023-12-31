@@ -44,13 +44,13 @@ main{
 
 /*Introduction*/
 .intro{
-    padding: 20px 20px;
+    padding-bottom:15px;
 }
 
 .intro h1{
     font-size: 50px;
     padding-bottom: 7px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .intro h2{
@@ -62,7 +62,7 @@ main{
     text-decoration: underline;
     font-size: 16px;
     background-color: #01c38d;
-    margin: 10px 100px;
+    margin: 10px 110px;
     padding: 6px 0;
     font-weight: bold;
     color: white;
@@ -118,7 +118,7 @@ main{
     color:#01c38d;
     font-weight: 2000;
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 45px;
 }
 
 #rules i{
