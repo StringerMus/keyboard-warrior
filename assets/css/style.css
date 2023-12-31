@@ -135,10 +135,9 @@ main{
 /*footer*/
 footer{
     background-color:#091a1f;
-    padding:20px 10px;
+    padding:30px 10px;
 }
 
-#logo{
-    color:#01c38d;
-    font-size: 5px;
+.footer-logo{
+    height: 50px;
 }
