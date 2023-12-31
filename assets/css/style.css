@@ -11,26 +11,25 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
 }
 
 h1{
     font-family: "Bebas Neue", sans-serif;
     color: #01c38d;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     }
 
-h2,p {
+h2{
+    font-family: "Sora", sans-serif;
     color: white;
-}
-    
-body {
-    font-family: "Roboto", sans-serif;
-    color: white;
-}
+    }
 
 /*header*/
 header {
-    background-color:#171717;
+    background-color:#ffffff;
+    box-shadow: 15px 1px 1px 4px #01c38d;
 }
 
 /*body*/
@@ -44,7 +43,7 @@ main{
 }
 
 .intro h1{
-    font-size: 50px;
+    font-size: 60px;
     padding-bottom: 10px;
 }
 
@@ -54,10 +53,14 @@ main{
 }
 
 .intro p{
-    font-size: 14px;
-    padding: 5px 5px;
-    margin: 10px 10px;
+    text-decoration: underline;
+    font-size: 16px;
     background-color: #01c38d;
+    margin: 10px 100px;
+    padding: 6px 0;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
 }
 
 /*Game*/
@@ -76,8 +79,8 @@ main{
 
 #challenge-word {
     color: rgb(255, 196, 0);
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 900;
 }
 
 .challenge-area input {
@@ -85,12 +88,21 @@ main{
     padding: 0px 10px;
 }
 
+.submit{
+    padding:5px 10px;
+    font-weight: bold;
+    color: #01c38d;
+}
+
 .time-area{
-    padding: 10px 0px;
+    padding: 40px 0px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 /*Rules*/
 .rules{
+    padding: 50px 35px;
     background-color: #091a1f;
     color: white;
 }
