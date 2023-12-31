@@ -29,7 +29,12 @@ h2{
 /*header*/
 header {
     background-color:#ffffff;
-    box-shadow: 15px 1px 1px 4px #01c38d;
+    box-shadow: 5px 10px #c8ff00;
+    padding: 10px 0px;
+}
+
+.logo{
+    max-height:50px;
 }
 
 /*body*/
@@ -43,13 +48,14 @@ main{
 }
 
 .intro h1{
-    font-size: 60px;
-    padding-bottom: 10px;
+    font-size: 50px;
+    padding-bottom: 7px;
+    padding-top: 30px;
 }
 
 .intro h2{
     font-size: 18px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .intro p{
@@ -98,17 +104,41 @@ main{
     padding: 40px 0px;
     font-weight: bold;
     letter-spacing: 2px;
+    box-shadow: 50px 100px #c8ff00;
 }
 
 /*Rules*/
-.rules{
-    padding: 50px 35px;
+#rules{
+    padding: 0px 35px;
     background-color: #091a1f;
     color: white;
 }
 
+#rules h2{
+    color:#01c38d;
+    font-weight: 2000;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#rules i{
+    color:#01c38d;
+    font-weight: 10px;
+    font-size: 30px;
+    padding-bottom:5px;
+}
+
+#rules p{
+    padding-bottom: 30px;
+}
+
 /*footer*/
 footer{
-    background-color:white;
-    padding:10px 10px;
+    background-color:#091a1f;
+    padding:20px 10px;
+}
+
+#logo{
+    color:#01c38d;
+    font-size: 5px;
 }
