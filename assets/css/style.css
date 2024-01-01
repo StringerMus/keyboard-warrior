@@ -85,7 +85,8 @@ main{
 
 #challenge-word {
     color: rgb(255, 196, 0);
-    font-size: 40px;
+    padding-top: 10px;
+    font-size: 25px;
     font-weight: 900;
 }
 
