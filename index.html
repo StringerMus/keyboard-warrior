@@ -46,9 +46,15 @@
                 <p>Type this word as quick as you can:</p>
                 <div id="challenge-word"></div>
                 <br>
-                <input id="type-box">
+                <!--user entry-->
+                <form id="form" method="POST">
+                    <div class="user-input">
+                        <input type="text" id="entry" name="entry">
+                    </div>
+                    <div id="errors"></div>
+                </form>
             </div>
-            <!--sumbit needs to be don with "enter"-->
+            <!--sumbit needs to be done with "enter"-->
             <button data-type="submit" class="submit">Submit</button>
         </div>
 

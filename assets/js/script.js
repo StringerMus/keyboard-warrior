@@ -10,3 +10,22 @@ let shuffle = sentence[Math.floor(Math.random() * sentence.length)];
 let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
 
+//validate
+let form = document.getElementById('form');
+entry.addEventListener('submit', handleSubmit);
+
+function handleSubmit(event) {
+    // Prevent the form from being submitted
+    event.preventDefault();
+    let cEntry = form.elements[entry].value;
+
+    if (cEntry !== shuffle) {
+        let errorDiv = document.getElementById('errors');
+        errorDiv.innerHTML = "<p>Your entry does not match, please ensure your input matches the challenge exactly.</p>";
+        errorDiv.style.display = 'block';
+    }else {
+        form.submit();
+    }
+}
+
+
