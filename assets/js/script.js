@@ -17,11 +17,11 @@ entry.addEventListener('submit', handleSubmit);
 function handleSubmit(event) {
     // Prevent the form from being submitted
     event.preventDefault();
-    let cEntry = form.elements[entry].value;
+    let userInput = form.elements[entry].value;
 
-    if (cEntry !== shuffle) {
+    if (userInput !== shuffle) {
         let errorDiv = document.getElementById('errors');
-        errorDiv.innerHTML = "<p>Your entry does not match, please ensure your input matches the challenge exactly.</p>";
+        errorDiv.innerHTML = "<p>Uh oh...your entry does not match the challenge. Play again! but make sure you have typed it in correctly.</p>";
         errorDiv.style.display = 'block';
     }else {
         form.submit();
