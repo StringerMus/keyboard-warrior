@@ -11,21 +11,20 @@ let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
 
 //validate
-let form = document.getElementById('form');
-entry.addEventListener('submit', handleSubmit);
-
 function handleSubmit(event) {
-    // Prevent the form from being submitted
     event.preventDefault();
-    let userInput = form.elements[entry].value;
-
-    if (userInput !== shuffle) {
-        let errorDiv = document.getElementById('errors');
-        errorDiv.innerHTML = "<p>Uh oh...your entry does not match the challenge. Play again! but make sure you have typed it in correctly.</p>";
-        errorDiv.style.display = 'block';
-    }else {
-        form.submit();
+    let userEntry = form.elements['user-input'].value;
+  
+    if (userEntry !== shuffle) {
+      let errorDiv = document.getElementById('errors');
+      errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Play again! but make sure you have typed in correctly.</p>";
+      errorDiv.style.display = 'block';
+    } else {
+      form.submit();
     }
-}
+  }
+  
+  let form = document.getElementById('challenge-form');
+  form.addEventListener('submit', handleSubmit);
 
 

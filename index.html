@@ -47,13 +47,16 @@
                 <div id="challenge-word"></div>
                 <br>
                 <!--user entry-->
-                <form id="form" method="POST">
+                <form id="challenge-form" action="https://formdump.codeinstitute.net" method="POST">
                     <div class="user-input">
-                        <input type="text" id="entry" name="entry">
+                      <label for="user-input">Type here</label>
+                      <input name="user-input" id="user-input" type="text" required>
                     </div>
+  
                     <div id="errors"></div>
-                    <!--sumbit needs to be done with "enter"-->
-                    <button data-type="submit" class="submit">Submit</button>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
                 </form>
             </div>
             
