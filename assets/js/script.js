@@ -10,7 +10,7 @@ let shuffle = sentence[Math.floor(Math.random() * sentence.length)];
 let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
 
-//validate
+//validate user entry against challenge
 function handleSubmit(event) {
     event.preventDefault();
     let userEntry = form.elements['user-input'].value;
@@ -20,7 +20,9 @@ function handleSubmit(event) {
       errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Play again! but make sure you have typed in correctly.</p>";
       errorDiv.style.display = 'block';
     } else {
-      form.submit();
+      let successDiv = document.getElementById('success');
+      successDiv.innerHTML = "<p>Yay! You have typed ${shuffle} in time!</p>";
+      successDiv.style.display = 'block';;
     }
   }
   

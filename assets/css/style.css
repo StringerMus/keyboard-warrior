@@ -150,3 +150,12 @@ footer{
     border-radius: 3px;
     display: none;
 }
+
+#success {
+    background-color: #01c38d;
+    padding: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 5px;
+    display: none;
+}
