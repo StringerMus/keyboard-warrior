@@ -14,14 +14,16 @@ challengeWord.innerHTML = shuffle;
 function handleSubmit(event) {
     event.preventDefault();
     let userEntry = form.elements['user-input'].value;
-  
+    
+    //if the user types the challenge incorrectly
     if (userEntry !== shuffle) {
       let errorDiv = document.getElementById('errors');
       errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Play again! but make sure you have typed in correctly.</p>";
       errorDiv.style.display = 'block';
+      //if the challenge is correctly typed
     } else {
       let successDiv = document.getElementById('success');
-      successDiv.innerHTML = "<p>Yay! You have typed ${shuffle} in time!</p>";
+      successDiv.innerHTML = `<p>Yay!\nYou have typed\n"${shuffle}"\nin time!</p>`;
       successDiv.style.display = 'block';;
     }
   }
