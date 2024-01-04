@@ -29,7 +29,7 @@ function handleSubmit(event) {
       successDiv.innerHTML = `<p>Yay! You have typed "${shuffle}" in 'Time'!</p>`;
       successDiv.style.display = 'block';
     }
-    userInput.disabled = true; //disable submit
+    userInput.disabled = true; //disable input field afer submission
   }
   
   let form = document.getElementById('challenge-form');
