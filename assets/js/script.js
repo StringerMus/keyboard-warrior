@@ -27,7 +27,7 @@ function handleSubmit(event) {
     } else {
       let successDiv = document.getElementById('success');
       successDiv.innerHTML = `<p>Yay! You have typed "${shuffle}" in 'Time'!</p>`;
-      successDiv.style.display = 'block';;
+      successDiv.style.display = 'block';
     }
   }
   
@@ -76,5 +76,7 @@ function pad(number) {
   return (number < 10 ? "0" : "") + number;
 }
 
-
+//Timer start tiggers when user starts typing in input field
 userInput.addEventListener('keypress', startStopwatch);
+//Timer stop tiggers when user submits
+form.addEventListener('submit', stopStopwatch);
