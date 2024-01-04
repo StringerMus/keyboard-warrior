@@ -96,15 +96,11 @@ main{
 }
 
 .submit{
-    padding:5px 10px;
-    font-weight: bold;
-    color: #01c38d;
+    display: none;
 }
 
 .time-area{
-    padding: 40px 0px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    padding: 0px;
 }
 
 /*Rules*/
@@ -132,16 +128,7 @@ main{
     padding-bottom: 30px;
 }
 
-/*footer*/
-footer{
-    background-color:#091a1f;
-    padding:30px 10px;
-}
-
-.footer-logo{
-    height: 50px;
-}
-
+/*Input outcome messages*/
 #errors {
     background-color: lightpink;
     padding: 10px;
@@ -160,4 +147,24 @@ footer{
     display: none;
 }
 
-/*JS Stopwatch test*/
+/*Stopwatch*/
+ .timer {
+    display: none;
+ }
+
+ #stopwatch {
+    color:rgb(255, 196, 0);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+ }
+
+/*footer*/
+footer{
+    background-color:#091a1f;
+    padding:30px 10px;
+}
+
+.footer-logo{
+    height: 50px;
+}
