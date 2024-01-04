@@ -10,6 +10,7 @@ let shuffle = sentence[Math.floor(Math.random() * sentence.length)];
 let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
 
+let userInput = document.getElementById('user-input');
 
 
 //validate user entry against the challenge
@@ -74,3 +75,6 @@ function pad(number) {
   // add a leading zero if the number is less than 10
   return (number < 10 ? "0" : "") + number;
 }
+
+
+userInput.addEventListener('keypress', startStopwatch);
