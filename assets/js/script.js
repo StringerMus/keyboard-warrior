@@ -11,7 +11,7 @@ let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
 
 let userInput = document.getElementById('user-input');
-
+let playAgainDiv = document.getElementById('play-again');
 
 //validate user entry against the challenge
 function handleSubmit(event) {
@@ -30,6 +30,7 @@ function handleSubmit(event) {
       successDiv.style.display = 'block';
     }
     userInput.disabled = true; //disable input field afer submission
+    playAgainDiv.innerHTML = `Play Again <i class="fa-solid fa-rotate-right"></i>`;//play again appears after submission
   }
   
   let form = document.getElementById('challenge-form');
@@ -82,5 +83,4 @@ userInput.addEventListener('keypress', startStopwatch);
 //Timer stop tiggers when user submits
 form.addEventListener('submit', stopStopwatch);
 
-
-//Replay game
+//replay
