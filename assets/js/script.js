@@ -84,3 +84,13 @@ userInput.addEventListener('keypress', startStopwatch);
 form.addEventListener('submit', stopStopwatch);
 
 //replay
+
+function replayGame (){
+  userInput.innerHTML = “”;
+  document.getElementById("stopwatch").innerHTML = "00:00:00";
+  shuffle;
+  errorDiv.style.display = none;
+  successDiv.style.display = none;
+}
+
+playAgainDiv.addEventListener("click", replayGame);
