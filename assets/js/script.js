@@ -35,10 +35,9 @@ function handleSubmit(event) {
   let form = document.getElementById('challenge-form');
   form.addEventListener('submit', handleSubmit);
 
+//Stopwatch
 
-//Timer events
-
-//JS Stopwatch Test
+// Code for the timer has been sourced from www.educative.io - edited for use on this project
 let startTime; // to keep track of the start time
 let stopwatchInterval; // to keep track of the interval
 let elapsedPausedTime = 0; // to keep track of the elapsed time while stopped
