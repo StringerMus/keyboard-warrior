@@ -33,6 +33,7 @@
     </header>
 
     <main>
+        <!--intro section-->
         <div class="intro">
             <h1>Challenge</h1>
             <h2>How fast can you type?</h2>
@@ -41,6 +42,7 @@
             </a>
         </div>
         
+        <!--game section-->
         <div class="game-area">
             <div class="challenge-area">
                 <p>Type this sentence as quick as you can:</p>
@@ -52,15 +54,18 @@
                       <label for="user-input">Type here</label>
                       <input name="user-input" id="user-input" type="text" required>
                     </div>
-  
+                    
+                    <!--js error/success messages appear depending on outcome of user submission-->
                     <div id="errors"></div>
                     <div id="success"></div>
+                    <!--user submit here-->
                     <div class="submit">
                         <input id="user-submit" type="submit" value="Submit">
                     </div>
                 </form>
             </div>
             
+            <!--timer-->
             <div class="time-area">
                 <div id="stopwatch">00:00:00</div>
                 <button class="timer" onclick="startStopwatch()">Start</button>
@@ -69,7 +74,8 @@
             </div>
 
         </div>
-
+        
+        <!--rules section-->
         <div id="rules">
             <h2>How it Works</h2>
             <i class="fa-regular fa-keyboard"></i>
