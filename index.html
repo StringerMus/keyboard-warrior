@@ -38,7 +38,7 @@
             <h1>Challenge</h1>
             <h2>How fast can you type?</h2>
             <a href="#rules">
-                <p>Rules</p>
+                <p id="rules-link">Rules</p>
             </a>
         </div>
         
@@ -46,7 +46,7 @@
         <div class="game-area">
             <div class="challenge-area">
                 <p>Type this sentence as quick as you can:</p>
-                <div id="challenge-word"></div>
+                <div id="challenge-word" onmousedown="return false" onselectstart="return false"></div>
                 <br>
                 <!--user entry-->
                 <form id="challenge-form" autocomplete="off" method="POST">

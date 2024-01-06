@@ -136,6 +136,7 @@ main{
     width: fit-content;
     border-radius: 3px;
     display: none;
+    margin-bottom: 20px;
 }
 
 #success {
@@ -145,6 +146,7 @@ main{
     width: fit-content;
     border-radius: 5px;
     display: none;
+    margin-bottom: 20px;
 }
 
 /*Stopwatch*/
@@ -157,6 +159,10 @@ main{
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 30px;
+ }
+
+ #play-again{
+    padding-bottom: 20px;
  }
 
 /*footer*/

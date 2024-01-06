@@ -27,7 +27,7 @@ function handleSubmit(event) {
     //if the user types the challenge incorrectly
     if (userEntry !== shuffle) {
       const errorDiv = document.getElementById('errors');
-      errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Play again! but make sure you have spely everything correctly.</p>";
+      errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Try again! but make sure you have spelt correctly, including punctuations and uppercase.</p>";
       errorDiv.style.display = 'block';
       //if the challenge is correctly typed
     } else {
