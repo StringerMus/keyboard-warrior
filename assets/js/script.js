@@ -4,14 +4,18 @@ const sentence = [
     "Stop beating around the bush","The ball is in your court","You can't judge a book by its cover"
 ];
 
-//randomise sentences
-let shuffle = sentence[Math.floor(Math.random() * sentence.length)];
+//timer variables
+let startTime;
+let stopwatchInterval;
+let elapsedPausedTime = 0;
 
+let shuffle = sentence[Math.floor(Math.random() * sentence.length)]; //randomise sentences
 let challengeWord = document.getElementById('challenge-word');
-challengeWord.innerHTML = shuffle;
-
 let userInput = document.getElementById('user-input');
 let playAgainDiv = document.getElementById('play-again');
+let form = document.getElementById('challenge-form');
+
+challengeWord.innerHTML = shuffle;
 
 //validate user entry against the challenge
 function handleSubmit(event) {
@@ -34,15 +38,10 @@ function handleSubmit(event) {
     playAgainDiv.style.display = 'block';
   }
   
-  let form = document.getElementById('challenge-form');
   form.addEventListener('submit', handleSubmit);
 
 //Stopwatch
-
-// Code for the timer has been sourced from www.educative.io - edited for use on this project
-let startTime;
-let stopwatchInterval;
-let elapsedPausedTime = 0;
+// Code for the stopwatch has been sourced from www.educative.io - edited for use on this project
 
 function startStopwatch() {
   if (!stopwatchInterval) {
@@ -60,7 +59,7 @@ function stopStopwatch() {
 function resetStopwatch() {
   stopStopwatch(); // stop the interval
   elapsedPausedTime = 0; // reset the elapsed paused time variable
-  document.getElementById("stopwatch").innerHTML = "00:00:00"; // reset the display
+  document.getElementById("stopwatch").innerHTML = "00:00:00";
 }
 
 //function calculates time
@@ -70,8 +69,8 @@ function updateStopwatch() {
   const milliseconds = Math.floor(elapsedTime / 1) % 60;
   const seconds = Math.floor(elapsedTime / 1000) % 60;
   const minutes = Math.floor(elapsedTime / 1000 / 60) % 60;
-  let displayTime = pad(minutes) + ":" + pad(seconds) + ":" + pad(milliseconds); //format display time
-  document.getElementById("stopwatch").innerHTML = displayTime; //update the display
+  let displayTime = pad(minutes) + ":" + pad(seconds) + ":" + pad(milliseconds);
+  document.getElementById("stopwatch").innerHTML = displayTime;
 }
 
 function pad(number) {
@@ -79,13 +78,10 @@ function pad(number) {
   return (number < 10 ? "0" : "") + number;
 }
 
-//Timer start tiggers when user starts typing in input field
-userInput.addEventListener('keypress', startStopwatch);
-//Timer stop tiggers when user submits
-form.addEventListener('submit', stopStopwatch);
+userInput.addEventListener('keypress', startStopwatch); //Timer start tiggers when user starts typing in input field
+form.addEventListener('submit', stopStopwatch); //Timer stop tiggers when user submits
 
-//replay
-
+//restart game
 function replayGame (){
   resetStopwatch()
   document.getElementById('errors').style.display = "none";
