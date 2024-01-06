@@ -88,12 +88,14 @@ form.addEventListener('submit', stopStopwatch);
 
 function replayGame (){
   resetStopwatch()
-  challengeWord.innerHTML = shuffle.innerHTML = shuffle; //not working
   document.getElementById('errors').style.display = "none";
   document.getElementById('success').style.display = "none";
   userInput.disabled = false; //makes input field active again
   form.reset(); //clears input field
   playAgainDiv.style.display = "none";
+  shuffle = sentence[Math.floor(Math.random() * sentence.length)];
+  challengeWord = document.getElementById('challenge-word');
+  challengeWord.innerHTML = shuffle;
 }
 
 playAgainDiv.addEventListener("click", replayGame);
