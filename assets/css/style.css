@@ -79,11 +79,18 @@ main{
     padding-bottom: 10px;
 }
 
+#instruction{
+    color:#01c38d;
+    font-family: "Sora", sans-serif;
+    font-weight: bold;
+}
+
 .challenge-area{
     padding-top: 10px;
 }
 
 #challenge-word {
+    font-family: "Sora", sans-serif;
     color: rgb(255, 196, 0);
     padding-top: 10px;
     font-size: 25px;
@@ -91,8 +98,13 @@ main{
 }
 
 .challenge-area input {
-    margin: 20px 0px;
+    margin-bottom: 30px;
     padding: 0px 10px;
+}
+
+#type-here{
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 .submit{
@@ -154,10 +166,14 @@ main{
     display: none;
  }
 
+.time-area{
+    font-size: 15px;
+}
+
  #stopwatch {
     color:rgb(255, 196, 0);
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 30px;
  }
 
@@ -172,5 +188,5 @@ footer{
 }
 
 .footer-logo{
-    height: 50px;
+    height: 40px;
 }

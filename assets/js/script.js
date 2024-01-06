@@ -1,7 +1,7 @@
 //challenge sentences
 const sentence = [
     "Love you to the moon and back","Don't count your chickens before they hatch","A bird in the hand is worth two in the bush","Slow and steady wins the race",
-    "Stop beating around the bush","The ball is in your court","Don't judge a book by its cover","You can't make an omelette without breaking some eggs","You can lead a horse to water, but you can't make it drink",
+    "Stop beating around the bush","The ball is in your court","Don't judge a book by its cover","You can't make an omelette without breaking a few eggs","You can lead a horse to water, but you can't make it drink",
     "Those who live in glass houses shouldn't throw stones","Out of the frying pan and into the fire","Know which way the wind is blowing","It is always darkest before the dawn",
     "A poor workman who blames his tools","Hear it straight from the horse's mouth","He who laughs last laughs loudest","An apple a day keeps the doctor away"
 ];
