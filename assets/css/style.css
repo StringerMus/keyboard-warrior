@@ -217,7 +217,6 @@ footer{
     }
 }
 
-
 /*Large devices ( laptops and desktops 992px and up)*/
 @media screen and (min-width:992px) {
     #rules-link{
@@ -244,8 +243,29 @@ footer{
     }
 }
 
-
 @media screen and (min-width:1200px) {
+    #rules-link{
+        margin: 10px 600px;
+    }
+    
+    #challenge-word {
+        padding: 0px 300px;
+    }
+
+    #errors {
+        margin: 0px 380px;
+        margin-bottom: 30px;
+    }
+    
+    #success {
+        margin: 0px 380px;
+        margin-bottom: 30px;
+    }
+
+    #rules p{
+        padding: 0px 400px;
+        padding-bottom: 60px;
+    }
 }
 
 /*S Mobile (320px and up)*/
