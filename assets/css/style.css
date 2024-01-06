@@ -213,13 +213,35 @@ footer{
 
     #rules p{
         padding: 0px 150px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 }
 
 
 /*Large devices ( laptops and desktops 992px and up)*/
 @media screen and (min-width:992px) {
+    #rules-link{
+        margin: 10px 470px;
+    }
+    
+    #challenge-word {
+        padding: 0px 200px;
+    }
+
+    #errors {
+        margin: 0px 230px;
+        margin-bottom: 20px;
+    }
+    
+    #success {
+        margin: 0px 230px;
+        margin-bottom: 20px;
+    }
+
+    #rules p{
+        padding: 0px 250px;
+        padding-bottom: 50px;
+    }
 }
 
 
