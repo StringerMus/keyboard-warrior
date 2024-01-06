@@ -1,11 +1,11 @@
 //challenge sentences
-const sentence = [
+let sentence = [
     "Love you to the moon and back","Don't count your chickens before they hatch","A bird in the hand is worth two in the bush","Slow and steady wins the race",
     "Stop beating around the bush","The ball is in your court","You can't judge a book by its cover"
 ];
 
 //randomise sentences
-const shuffle = sentence[Math.floor(Math.random() * sentence.length)];
+let shuffle = sentence[Math.floor(Math.random() * sentence.length)];
 
 let challengeWord = document.getElementById('challenge-word');
 challengeWord.innerHTML = shuffle;
@@ -31,6 +31,7 @@ function handleSubmit(event) {
     }
     userInput.disabled = true; //disable input field afer submission
     playAgainDiv.innerHTML = `Play Again <i class="fa-solid fa-rotate-right"></i>`;//play again appears after submission
+    playAgainDiv.style.display = 'block';
   }
   
   let form = document.getElementById('challenge-form');
@@ -86,11 +87,13 @@ form.addEventListener('submit', stopStopwatch);
 //replay
 
 function replayGame (){
-  userInput.innerHTML = “”;
-  document.getElementById("stopwatch").innerHTML = "00:00:00";
-  shuffle;
-  errorDiv.style.display = none;
-  successDiv.style.display = none;
+  resetStopwatch()
+  challengeWord.innerHTML = shuffle.innerHTML = shuffle; //not working
+  document.getElementById('errors').style.display = "none";
+  document.getElementById('success').style.display = "none";
+  userInput.disabled = false; //makes input field active again
+  form.reset(); //clears input field
+  playAgainDiv.style.display = "none";
 }
 
 playAgainDiv.addEventListener("click", replayGame);
