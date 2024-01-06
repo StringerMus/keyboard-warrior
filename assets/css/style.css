@@ -58,7 +58,7 @@ main{
     padding-bottom: 7px;
 }
 
-.intro p{
+#rules-link{
     text-decoration: underline;
     font-size: 16px;
     background-color: #01c38d;
@@ -189,4 +189,38 @@ footer{
 
 .footer-logo{
     height: 40px;
+}
+
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width:768px) {
+    #rules-link{
+        margin: 10px 340px;
+    }
+
+    #challenge-word {
+        padding: 0px 100px;
+    }
+
+    #errors {
+        margin: 0px 130px;
+        margin-bottom: 20px;
+    }
+    
+    #success {
+        margin: 0px 130px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/*Large devices ( laptops and desktops 992px and up)*/
+@media screen and (min-width:992px) {
+}
+
+
+@media screen and (min-width:1200px) {
+}
+
+/*S Mobile (320px and up)*/
+@media screen and (min-width:320px) {
 }
