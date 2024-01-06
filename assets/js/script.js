@@ -17,6 +17,7 @@ let userInput = document.getElementById('user-input');
 let playAgainDiv = document.getElementById('play-again');
 let form = document.getElementById('challenge-form');
 
+userInput.focus()
 challengeWord.innerHTML = shuffle;
 
 //validate user entry against the challenge
@@ -95,6 +96,7 @@ function replayGame (){
   shuffle = sentence[Math.floor(Math.random() * sentence.length)];
   challengeWord = document.getElementById('challenge-word');
   challengeWord.innerHTML = shuffle;
+  userInput.focus()
 }
 
 playAgainDiv.addEventListener("click", replayGame);
