@@ -210,6 +210,11 @@ footer{
         margin: 0px 130px;
         margin-bottom: 20px;
     }
+
+    #rules p{
+        padding: 0px 150px;
+        padding-bottom: 30px;
+    }
 }
 
 
