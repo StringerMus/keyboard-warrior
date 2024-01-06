@@ -1,5 +1,5 @@
 //challenge sentences
-let sentence = [
+const sentence = [
     "Love you to the moon and back","Don't count your chickens before they hatch","A bird in the hand is worth two in the bush","Slow and steady wins the race",
     "Stop beating around the bush","The ball is in your court","You can't judge a book by its cover"
 ];
@@ -20,12 +20,12 @@ function handleSubmit(event) {
     
     //if the user types the challenge incorrectly
     if (userEntry !== shuffle) {
-      let errorDiv = document.getElementById('errors');
+      const errorDiv = document.getElementById('errors');
       errorDiv.innerHTML = "<p>Uh oh...your entry did not match the challenge. Play again! but make sure you have spely everything correctly.</p>";
       errorDiv.style.display = 'block';
       //if the challenge is correctly typed
     } else {
-      let successDiv = document.getElementById('success');
+      const successDiv = document.getElementById('success');
       successDiv.innerHTML = `<p>Yay! You have typed "${shuffle}" correctly!</p>`;
       successDiv.style.display = 'block';
     }
@@ -67,9 +67,9 @@ function resetStopwatch() {
 function updateStopwatch() {
   let currentTime = new Date().getTime(); //get current time in milliseconds
   let elapsedTime = currentTime - startTime; //calculate elapsed time in milliseconds
-  let milliseconds = Math.floor(elapsedTime / 1) % 60;
-  let seconds = Math.floor(elapsedTime / 1000) % 60;
-  let minutes = Math.floor(elapsedTime / 1000 / 60) % 60;
+  const milliseconds = Math.floor(elapsedTime / 1) % 60;
+  const seconds = Math.floor(elapsedTime / 1000) % 60;
+  const minutes = Math.floor(elapsedTime / 1000 / 60) % 60;
   let displayTime = pad(minutes) + ":" + pad(seconds) + ":" + pad(milliseconds); //format display time
   document.getElementById("stopwatch").innerHTML = displayTime; //update the display
 }
@@ -93,6 +93,7 @@ function replayGame (){
   userInput.disabled = false; //makes input field active again
   form.reset(); //clears input field
   playAgainDiv.style.display = "none";
+  //shuffles challenge
   shuffle = sentence[Math.floor(Math.random() * sentence.length)];
   challengeWord = document.getElementById('challenge-word');
   challengeWord.innerHTML = shuffle;
