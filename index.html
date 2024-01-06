@@ -45,14 +45,15 @@
         <!--game section-->
         <div class="game-area">
             <div class="challenge-area">
-                <p id="instruction">Type the sentence below:</p>
+                <p id="instruction">Type the sentence below</p>
                 <div id="challenge-word" onmousedown="return false" onselectstart="return false"></div>
                 <br>
                 <!--user entry-->
                 <form id="challenge-form" autocomplete="off" method="POST">
                     <div class="user-input">
-                      <p id="type-here">Type here</p>
+                      <p id="type-here">Type here:</p>
                       <input name="user-input" id="user-input" type="text" required>
+                      <p id="enter-submit">Press Enter to submit</p>
                     </div>
                     
                     <!--js error/success messages appear depending on outcome of user submission-->
