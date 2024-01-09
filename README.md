@@ -16,13 +16,38 @@ The header only contains the logo, since its a single page website there is not 
 
 ![header](media/header.png)
 
+
 ### Introduction
 The introduction section gives the user the sites purpose by presenting the user with a challenge by challenging the visitor to type quickly. If the user needs further explanation on how the challenge works, there is a link to the rules section which takes the user further down the page.
 
-
+![introduction](media/intro.png)
 
 ### Game-area
+The game-area will be where users will spend most of the time on the site and where the javascript has been implemented. The game-area can be broken down into 3 more sections - the challenge, user input and time.
 
+#### The Challenge
+The user is presented with the instruction to type the challenge sentence below, the challenge is an array of sentences that have been taken from idioms.
+
+<li>
+These senetences are always randomised whenever the page is loaded or the game is replayed, they also always appear in a random order so the challenge is not predictedable for the user to not bore easily.
+</li> 
+<br>
+<li>The user will also not be able to copy the challenge as the selection text selection has been disabled for this section.
+</li>
+
+#### User Input
+The input area has been created as form for a user to be able to use the input box and submit their entry. The entry needs to match the challenge - this includes spelling, punctuations and capitilisation.
+
+<li>
+Once the entry is submitted, the users entry is validated against the challenge that appears above the input box. If the users entry does not match the challenge, a message will appear informing the user if the entry matches or not.
+<br>
+<li>
+Auto-fill has been disabled so it does distract the user with suggestions and users cannot also cheat if they had already submitted a challenge they had already done.
+</li>
+<br>
+<li>
+The input box locks after the the challenge has been submitted for users to be unable to try and submit again 
+</li>
 ### Rules
 
 ### Footer
