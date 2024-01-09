@@ -23,7 +23,7 @@ The introduction section gives the user the sites purpose by presenting the user
 ![introduction](media/intro.png)
 
 ### Game-area
-The game-area will be where users will spend most of the time on the site and where the javascript has been implemented. The game-area can be broken down into 3 more sections - the challenge, user input and time.
+The game-area will be where users will spend most of the time on the site and where the javascript has been implemented. The game-area can be broken down into 4 more sections - the challenge, user input, time and replay.
 
 #### The Challenge
 The user is presented with the instruction to type the challenge sentence below, the challenge is an array of sentences that have been taken from idioms.
@@ -41,16 +41,47 @@ The input area has been created as form for a user to be able to use the input b
 <li>
 Once the entry is submitted, the users entry is validated against the challenge that appears above the input box. If the users entry does not match the challenge, a message will appear informing the user if the entry matches or not.
 <br>
+<br>
 <li>
 Auto-fill has been disabled so it does distract the user with suggestions and users cannot also cheat if they had already submitted a challenge they had already done.
 </li>
 <br>
+<br>
 <li>
-The input box locks after the the challenge has been submitted for users to be unable to try and submit again 
+The input box locks after the the challenge has been submitted for users to be unable to try and submit again to ensure the user only has 1 attempt to submit a single challenge.
 </li>
+<br>
+<br>
+<li>
+Focus has been added to the inbox for the input box to already selected ready to type to add convinience for users, notifying and prompting users to type.
+</li>
+<br>
+<br>
+<li>
+The submit button has been hidden to have the user press 'Enter' to submit which will be quicker then clicking the button to ensure users are recording a more accurate time when they are ready to submit their entry.
+</li>
+
+#### Timer
+The timer begins as soon as the users starts typing in the input box, the timer simply stops when the hit enter which will show the user the time it took for them to complete the challenge.
+<li>
+The start, stop and reset buttons have been hidden so they are only triggered by events.
+</li>
+
+#### Play Again
+The Play Again feature only appears after the user has made a submission to be able to restart the game for the user to play again. Once this has been clicked the:
+<li>the timer resets to zero which it start from once the next challenge is played;</li>
+<li>the success/error messages are hidden again;</li> 
+<li>the form is cleared and the input box is made active again;</li>
+<li>the play again feature is hidden;</li>
+<li>and the challenge array is re-shuffled for a new challenge.</li>
+
 ### Rules
+The rules section is there for the user if needed to clarify further the objective of the challenge and how it works. It's a small section that has been split in 3 sections to help make it easy to understand.
+
+There is a back to top feature to take the user back to the challenge if they had used the 'Rules' button at the top to arrive at the Rules section and are unaware they can scoll back up to the challenge.
 
 ### Footer
+The page finishes off with the footer, and there is only logo at the bottom which is linked to the webpage and will always take the user back to the homepage when clicked.
 
 # Credit
 

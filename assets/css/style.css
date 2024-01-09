@@ -145,6 +145,12 @@ main{
     padding-bottom: 30px;
 }
 
+#back-to-top{
+    color:#01c38d;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
 /*Input outcome messages*/
 #errors {
     background-color: lightpink;
@@ -191,7 +197,7 @@ main{
 /*footer*/
 footer{
     background-color:#091a1f;
-    padding:30px 10px;
+    padding:15px 10px;
 }
 
 .footer-logo{
