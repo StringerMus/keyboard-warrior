@@ -75,13 +75,19 @@ The Play Again feature only appears after the user has made a submission to be a
 <li>the play again feature is hidden;</li>
 <li>and the challenge array is re-shuffled for a new challenge.</li>
 
+![game-area](media/game-area.png)
+
 ### Rules
 The rules section is there for the user if needed to clarify further the objective of the challenge and how it works. It's a small section that has been split in 3 sections to help make it easy to understand.
 
 There is a back to top feature to take the user back to the challenge if they had used the 'Rules' button at the top to arrive at the Rules section and are unaware they can scoll back up to the challenge.
 
+![rules](media/rules.png)
+
 ### Footer
 The page finishes off with the footer, and there is only logo at the bottom which is linked to the webpage and will always take the user back to the homepage when clicked.
+
+![footer](media/footer.png)
 
 # Credit
 
