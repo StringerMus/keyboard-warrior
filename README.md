@@ -97,12 +97,46 @@ The site should also have a all-time scoreboard of quickest times that have been
 ## Testing
 
 ### Header
-
-I have started testing the site on 320px screen. Keyboard Warrior is a single page website, when I arrive on the website I am met by the header and intro. The intro banner contains the logo, it is inside a white banner and stands our against the dark blue background below it.
+I have started testing the site on laptop screen size. Keyboard Warrior is a single page website, when I arrive on the website I am met by the header and intro. The intro banner contains the logo, it is inside a white banner and stands our against the dark blue background below it.
 
 If I click the logo, this re-loads the page and takes me back to the site
 
+### Introduction
+In the intro section I am presented with a challenge. Under the header the website begins with 'Challenge' in big green letters asking the user how fast they can type.
 
+If I am unsure of the rules there is a button called rules under the challenge.
+
+### Rules
+If I click the 'Rules' button it takes me to the Rules section further down the page which can clarify how the game works. The rules are broken down into three parts to simplify the game functions.
+
+There is 'Back to top' link in the rules section to take me back to where I had been been before clicking the Rules button.
+
+### Game-area
+Underneath the Intro section, I can see the game-area. The game-area starts with the site asking me 'Type the sentence below'. Below this I can see the challenge sentence in big yellow letters which has my attention, the challenge sentence changes everytime the page is loaded.
+
+Underneath the challenge sentence I can see white font telling me to type in the input below it, the input box is already selected ready for me to type.
+
+I can see I need to hit enter to submit my entry. When I try to submit an empty input I get an error pop-up adivising the field is empty.
+
+I am unable to select and copy the challenge sentence when I attempt it.
+
+#### Input box
+As soon as I start typing I can see the timer start which is in yellow writing underneath text telling this is my time.
+
+When I type in the challenge in the input box there is no predictive text or auto-fill dropdown feature to assist my entry. When I submit my entry by pressing 'Enter' the timer stops, I can see my time but I can also see a message in light red box pop up below the input box telling me my entry is incorrect.
+
+Although the input field is now locked, I can review what I have typed by scrolling through my entry to see what I have typed wrong and I can see there is a spelling mistake.
+
+#### Play again
+A 'Play Again' feature has also appeared underneath the time after I submitted the entry. When I click this a new challenge sentence replaces the previous one, the input field is cleared and selected as it now active to type inside. The error message has also now gone, the timer is reset back to '0' and the play again feature is hidden again.
+
+#### Success
+When I attempt to start typing the new challenge in the input box the timer starts again from 0 and I press 'Enter' to submit my entry, the timer stops to show the time I have taken and this time a message in a green box appears informing I have typed in the challenge correctly. I can review the input box again to see my entry matches the challenge. The input box is disbaled after my submission and the play again feature appears.
+
+Again when click 'Play Again' this resets the game again with a new challenge sentence, timer reset to 0, the input box cleared and active, the outcome message and 'Play Again' feature hidden.
+
+### Footer
+When I scroll further down the page and go passed the rules section I have already viewed underneath the game-area, the footer as the web logo. When this is clicked this reloads the webpage and takes me back to the top of the page.
 
 # Credit
 
