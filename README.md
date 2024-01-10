@@ -138,6 +138,11 @@ Again when click 'Play Again' this resets the game again with a new challenge se
 ### Footer
 When I scroll further down the page and go passed the rules section I have already viewed underneath the game-area, the footer as the web logo. When this is clicked this reloads the webpage and takes me back to the top of the page.
 
+### Responsiveness
+I have tested the site on different screen sizes on mobile screens-size (320px), tablets & larger (768px and up), laptops & desktops (992px and up) and screens with min-width of 1200px.
+
+The site responds to these screen sizes well, the site is centralised so it is very consistent in how the elements are presented to the user and the information on the diffetent screens are readable.
+
 # Credit
 
 Logo and Favicon

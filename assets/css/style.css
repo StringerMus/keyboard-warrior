@@ -230,7 +230,7 @@ footer{
     }
 }
 
-/*Large devices ( laptops and desktops 992px and up)*/
+/*Large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width:992px) {
     #rules-link{
         margin: 10px 470px;
@@ -279,8 +279,4 @@ footer{
         padding: 0px 400px;
         padding-bottom: 60px;
     }
-}
-
-/*S Mobile (320px and up)*/
-@media screen and (min-width:320px) {
 }
