@@ -55,15 +55,14 @@ main{
 
 .intro h2{
     font-size: 18px;
-    padding-bottom: 7px;
+    padding-bottom: 30px;
 }
 
 #rules-link{
     text-decoration: underline;
     font-size: 16px;
     background-color: #01c38d;
-    margin: 10px 110px;
-    padding: 6px 0;
+    padding: 8px 20px;
     font-weight: bold;
     color: white;
     letter-spacing: 1px;
@@ -122,7 +121,7 @@ main{
 
 /*Rules*/
 #rules{
-    padding: 0px 35px;
+    padding: 50px 35px;
     background-color: #091a1f;
     color: white;
 }
@@ -142,13 +141,12 @@ main{
 }
 
 #rules p{
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 #back-to-top{
     color:#01c38d;
     text-decoration: underline;
-    padding-bottom: 15px;
 }
 
 /*Input outcome messages*/

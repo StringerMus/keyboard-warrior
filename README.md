@@ -143,6 +143,11 @@ I have tested the site on different screen sizes on mobile screens-size (320px),
 
 The site responds to these screen sizes well, the site is centralised so it is very consistent in how the elements are presented to the user and the information on the diffetent screens are readable.
 
+### Problems
+I have found a slight issue in the Rules button in the intro section and 'Back to Top' link at the bottom of the page, the links are clickable on the same row but outside of the button and 'Back to Top'element.
+
+I have now amended this by removing the 'p' elements in the html in the syntax and having the required content with 'a' elements. This has now fixed the issue and the links are now only clickable inside the button and 'Back to top' link.
+
 # Credit
 
 Logo and Favicon
