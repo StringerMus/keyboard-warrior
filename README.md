@@ -1,5 +1,4 @@
 # Keyboard Warrior
-
 Keyboard Warrior is a fun website that challenges visitors and their friends to test their speed in using a keyboard against themself or eachother. As Keyboard Warrior entertains users with a challenge, it also drives accuracy in typing in speed ensuring the correct punctiations and spelling are captured without the help of auto correct or predictive text. The main aim of the website is to entertain its users with a typing challenge and inadvertently improve typing skills.
 
 Keyboard Warrior will attract a young audience, mainly secondary school students up to young adults. Keyboard Warrior is an interactive website with an entertaining challenge to for the user to beat themselves and others by recording the quickest against different challenge sentences.
@@ -94,6 +93,8 @@ For the future the website should look to include a score system to record that 
 
 The site should also have a all-time scoreboard of quickest times that have been recorded by all users against each challenge on this website.
 
+It would be also good to add options for users to be able to select a level of difficulty for users to select how difficult they would like the challenges. 
+
 ## Testing
 
 ### Header
@@ -148,7 +149,11 @@ I have found a slight issue in the Rules button in the intro section and 'Back t
 
 I have now amended this by removing the 'p' elements in the html in the syntax and having the required content with 'a' elements. This has now fixed the issue and the links are now only clickable inside the button and 'Back to top' link.
 
-# Credit
+## Validator Testing
+
+## Deployment
+
+## Credit
 
 Logo and Favicon
 https://www.freelogodesign.org/
