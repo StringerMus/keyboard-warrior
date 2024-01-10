@@ -89,6 +89,21 @@ The page finishes off with the footer, and there is only logo at the bottom whic
 
 ![footer](media/footer.png)
 
+### Features to implement
+For the future the website should look to include a score system to record that quickest times the user has been able to record against each challenge.
+
+The site should also have a all-time scoreboard of quickest times that have been recorded by all users against each challenge on this website.
+
+## Testing
+
+### Header
+
+I have started testing the site on 320px screen. Keyboard Warrior is a single page website, when I arrive on the website I am met by the header and intro. The intro banner contains the logo, it is inside a white banner and stands our against the dark blue background below it.
+
+If I click the logo, this re-loads the page and takes me back to the site
+
+
+
 # Credit
 
 Logo and Favicon
