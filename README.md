@@ -7,6 +7,11 @@ Keyboard Warrior will attract a young audience, mainly secondary school students
 
 ![responsive](media/responsive.png)
 
+### Colour theme and design
+To make Keyboard Warrior look interesting, I thought it would be best to give the feeling of a 'computer-centric' game in relation the site is typing challenge.
+
+I have chosen a shade of green as the primary colour and on a background of dark blue to complement the green and ensure it stands out. The most important game information is in yellow to help seperate the information which will catch the eye of the user.
+
 ## Features
 The website is a single page site, the page is essentially split into 5 sections but the main part of the web page will be the game area.
 
@@ -144,7 +149,7 @@ I have tested the site on different screen sizes on mobile screens-size (320px),
 
 The site responds to these screen sizes well, the site is centralised so it is very consistent in how the elements are presented to the user and the information on the diffetent screens are readable.
 
-### Problems
+### Bugs/Fixes
 I have found a slight issue in the Rules button in the intro section and 'Back to Top' link at the bottom of the page, the links are clickable on the same row but outside of the button and 'Back to Top'element.
 
 I have now amended this by removing the 'p' elements in the html in the syntax and having the required content with 'a' elements. This has now fixed the issue and the links are now only clickable inside the button and 'Back to top' link.
