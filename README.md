@@ -182,18 +182,21 @@ I have removed the font weight codes as they were not having any effect on the c
 ### JS Hint
 There were 3 warnings - there were missing semi colons, which I have now added them in.
 
-There are no errors or warning;
+There are now no errors or warnings;
 
 #### Metrics
 There are 7 functions in this file.
-
 Function with the largest signature take 1 arguments, while the median is 0.
-
 Largest function has 12 statements in it, while the median is 3.
-
 The most complex function has a cyclomatic complexity value of 2 while the median is 1.
 
 ## Deployment
+Keyboard Warrior has been deployed using GitHub's Pages;
+
+<li>Within the Keyboard Warrior repository, navigate into the 'Settings'.</li>
+<li>Within 'Settings' go into the Pages tab.</li>
+<li>Under branch select the 'main' branch and the 'root' folder.</li>
+<li>After the page is refreshed, it states the site is live at https://stringermus.github.io/keyboard-warrior/</li>
 
 ## Credit
 
