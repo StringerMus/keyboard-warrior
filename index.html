@@ -24,7 +24,7 @@
 </head>
 
 
-<body>
+<body onmousedown="return false">
     <!--Header Bar-->
     <header>
         <a href="index.html">
@@ -44,7 +44,7 @@
         <div class="game-area">
             <div class="challenge-area">
                 <p id="instruction">Type the sentence below</p>
-                <div id="challenge-word" onmousedown="return false" onselectstart="return false"></div>
+                <div id="challenge-word"></div>
                 <br>
                 <!--user entry-->
                 <form id="challenge-form" autocomplete="off" method="POST">

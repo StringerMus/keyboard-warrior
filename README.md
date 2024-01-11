@@ -8,7 +8,7 @@ Keyboard Warrior will attract a young audience, mainly secondary school students
 ![responsive](media/responsive.png)
 
 ### Colour theme and design
-To make Keyboard Warrior look interesting, I thought it would be best to give the feeling of a 'computer-centric' game in relation the site is typing challenge.
+To make Keyboard Warrior look interesting, the site is essentially a dark theme with the information being lighter. I thought it would be best to give the feeling of a 'computer-centric' game in relation the site is typing challenge.
 
 I have chosen a shade of green as the primary colour and on a background of dark blue to complement the green and ensure it stands out. The most important game information is in yellow to help seperate the information which will catch the eye of the user.
 
@@ -155,6 +155,7 @@ I have found a slight issue in the Rules button in the intro section and 'Back t
 I have now amended this by removing the 'p' elements in the html in the syntax and having the required content with 'a' elements. This has now fixed the issue and the links are now only clickable inside the button and 'Back to top' link.
 
 ## Validator Testing
+
 
 ## Deployment
 
