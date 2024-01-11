@@ -17,7 +17,7 @@ let userInput = document.getElementById('user-input');
 let playAgainDiv = document.getElementById('play-again');
 let form = document.getElementById('challenge-form');
 
-userInput.focus()
+userInput.focus();
 challengeWord.innerHTML = shuffle;
 
 //validate user entry against the challenge
@@ -86,7 +86,7 @@ form.addEventListener('submit', stopStopwatch); //Timer stop tiggers when user s
 
 //restart game
 function replayGame (){
-  resetStopwatch()
+  resetStopwatch();
   document.getElementById('errors').style.display = "none";
   document.getElementById('success').style.display = "none";
   userInput.disabled = false; //makes input field active again
@@ -96,7 +96,7 @@ function replayGame (){
   shuffle = sentence[Math.floor(Math.random() * sentence.length)];
   challengeWord = document.getElementById('challenge-word');
   challengeWord.innerHTML = shuffle;
-  userInput.focus()
+  userInput.focus();
 }
 
 playAgainDiv.addEventListener("click", replayGame);

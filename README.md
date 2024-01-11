@@ -172,6 +172,20 @@ I have removed this from the html and amended the stray tags.
 I have removed the font weight codes as they were not having any effect on the css.
 ![css-validator-pass](media/css-validator-pass.png)
 
+### JS Hint
+There were 3 warnings - there were missing semi colons, which I have now added them in.
+
+There are no errors or warning;
+
+#### Metrics
+There are 7 functions in this file.
+
+Function with the largest signature take 1 arguments, while the median is 0.
+
+Largest function has 12 statements in it, while the median is 3.
+
+The most complex function has a cyclomatic complexity value of 2 while the median is 1.
+
 ## Deployment
 
 ## Credit
