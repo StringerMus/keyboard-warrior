@@ -200,11 +200,42 @@ Keyboard Warrior has been deployed using GitHub's Pages;
 
 ## Credit
 
-Logo and Favicon
-https://www.freelogodesign.org/
+### Content
+I have used the following sources to help me with my coding;
 
 Favicon html syntax
 https://www.w3schools.com/howto/howto_html_favicon.asp#:~:text=To%20add%20a%20favicon%20to,is%20%22favicon.ico%22.
 
+Randomise array
+https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
+
+Store HTML form value
+https://medium.com/@awaisalwaisy/how-to-store-html-form-value-in-an-array-9aedffab7c#:~:text=To%20get%20input%20from%20an,()%20method%20of%20the%20array.&text=You%20can%20add%20as%20many,in%20the%20array%20as%20needed.
+
+Keypress event
+https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+Onkeypress
+https://www.w3schools.com/jsref/event_onkeypress.asp
+
+Idioms
+https://www.ef.co.uk/english-resources/english-idioms/
+
+Stopwatch timer
+https://www.educative.io/answers/how-to-create-a-stopwatch-in-javascript
+
+Autocomplete off
+https://gist.github.com/niksumeiko/360164708c3b326bd1c8
+
+Stop text selection
+https://www.w3docs.com/snippets/javascript/how-to-disable-text-selection-copy-cut-paste-and-right-click-on-a-web-page.html#how-to-disable-text-selection-with-javascript-8
+
+### Media
 Web icons
 https://fontawesome.com/
+
+Logo and Favicon
+https://www.freelogodesign.org/
+
+Fonts
+https://fonts.google.com/
