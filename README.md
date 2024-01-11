@@ -12,6 +12,13 @@ To make Keyboard Warrior look interesting, the site is essentially a dark theme 
 
 I have chosen a shade of green as the primary colour and on a background of dark blue to complement the green and ensure it stands out. The most important game information is in yellow to help seperate the information which will catch the eye of the user.
 
+#### Logo
+The logo is a typing icon that appears when a sender is typing and the receiver can see a text message is being prepared.
+
+This is suitable logo for this website as it represents the nature of the typing challenge well by highlighting the main aspect of the challenge, typing.
+
+The logo was created and downloaded with the help of www.freelogodesign.org/
+
 ## Features
 The website is a single page site, the page is essentially split into 5 sections but the main part of the web page will be the game area.
 
