@@ -24,7 +24,7 @@
 </head>
 
 
-<body onmousedown="return false">
+<body>
     <!--Header Bar-->
     <header>
         <a href="index.html">
@@ -34,7 +34,7 @@
 
     <main>
         <!--intro section-->
-        <div class="intro" id="top">
+        <div class="intro" id="top" onmousedown="return false">
             <h1>Challenge</h1>
             <h2>How fast can you type?</h2>
             <a href="#rules" id="rules-link">Rules</a>
@@ -43,15 +43,15 @@
         <!--game section-->
         <div class="game-area">
             <div class="challenge-area">
-                <p id="instruction">Type the sentence below</p>
-                <div id="challenge-word"></div>
+                <p id="instruction" onmousedown="return false">Type the sentence below</p>
+                <div id="challenge-word" onmousedown="return false"></div>
                 <br>
                 <!--user entry-->
                 <form id="challenge-form" autocomplete="off" method="POST">
                     <div class="user-input">
-                      <p id="type-here">Type here:</p>
+                      <p id="type-here" onmousedown="return false">Type here:</p>
                       <input name="user-input" id="user-input" type="text" required>
-                      <p id="enter-submit">Press Enter to submit</p>
+                      <p id="enter-submit" onmousedown="return false">Press Enter to submit</p>
                     </div>
                     
                     <!--js error/success messages appear depending on outcome of user submission-->
@@ -65,7 +65,7 @@
             </div>
             
             <!--timer-->
-            <div class="time-area">
+            <div class="time-area" onmousedown="return false">
                 <p>Your Time:</p>
                 <div id="stopwatch">00:00:00</div>
                 <button class="timer" onclick="startStopwatch()">Start</button>
@@ -78,7 +78,7 @@
         </div>
         
         <!--rules section-->
-        <div id="rules">
+        <div id="rules" onmousedown="return false">
             <h2>How it Works</h2>
             <i class="fa-regular fa-keyboard"></i>
             <p>Type in the challenge sentence in the entry box as quick as you can.</p>
