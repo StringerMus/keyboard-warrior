@@ -154,6 +154,8 @@ I have found a slight issue in the Rules button in the intro section and 'Back t
 
 I have now amended this by removing the 'p' elements in the html in the syntax and having the required content with 'a' elements. This has now fixed the issue and the links are now only clickable inside the button and 'Back to top' link.
 
+I have also found a loophole for cheating. Even though I disabled text selection of the challenge sentence, if the user selects text from above challenge and down passed the challenge the user can copy and paste the text into the input box and then remove the words they dont need to submit which will record the time as '0' seconds. I have now disabled text selection within the website to prevent this.
+
 ## Validator Testing
 
 
